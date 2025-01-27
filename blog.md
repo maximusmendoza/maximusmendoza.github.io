@@ -4,7 +4,7 @@ title: My Personal Ramblings
 permalink: /blog/
 ---
 
-Welcome to my blog! Here you'll find my thoughts on anything and everything.
+Welcome to my thoughts and musings! Here you'll find my perspectives on machine learning, AI safety, and whatever else catches my interest.
 
 {% for post in site.posts %}
   <article class="post-preview">
@@ -14,4 +14,3 @@ Welcome to my blog! Here you'll find my thoughts on anything and everything.
     <a href="{{ post.url | relative_url }}" class="read-more">Read More...</a>
   </article>
 {% endfor %}
-
