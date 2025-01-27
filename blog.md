@@ -1,7 +1,7 @@
 ---
 layout: page
-title: My Personal Ramblings
-nav_title: Blog
+nav_title: My Personal Ramblings
+title: Blog
 permalink: /blog/
 ---
 
