@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Blog
+title: My Personal Ramblings
 permalink: /blog/
 ---
-
-# My Blog Posts
 
 Welcome to my blog! Here you'll find my thoughts on anything and everything.
 
