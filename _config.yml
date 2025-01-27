@@ -1,5 +1,92 @@
+# Site Settings
+# These settings control the basic information about your site
 title: Max Mendoza
-#logo: /INSERT/PATH/HERE
-#description: text below image
-show_downloads: true
+author:
+  name: Max Mendoza
+  email: max.k.mendoza@gmail.com
+
+# Site Description
+# This appears in search engines and social media previews
+description: >
+  Personal website and blog of Max Mendoza, featuring projects,
+  blog posts, and professional experience in mechanistic interpretability
+  and AI safety research.
+
+# Site URL Settings
+# These tell Jekyll how to construct the URLs for your site
+baseurl: ""  # Leave empty unless your site is in a subdirectory
+url: "https://maximusmendoza.github.io"
+
+# Build Settings
+# These control how Jekyll processes and generates your site
 theme: minima
+plugins:
+  - jekyll-feed  # Generates an RSS feed of your posts
+  - jekyll-seo-tag  # Adds metadata tags for search engines
+
+# Navigation
+# These pages will appear in the top navigation bar
+header_pages:
+  - blog.md
+  - projects.md
+  - resume.md
+
+# Social Media Links
+# These create the social media links in your footer
+social_links:
+  github: error517  # Replace with your GitHub username
+  linkedin: max-mendoza  # Replace with your LinkedIn username
+  custom:
+    - name: Kaggle
+      url: https://www.kaggle.com/error517  # Replace with your Kaggle profile URL
+      icon: /assets/images/kaggle-icon.svg
+
+# Collections
+# These organize your site's custom content types
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Default Settings
+# These set default front matter for different types of content
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: Max Mendoza
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Markdown Processing
+# These settings control how Markdown is converted to HTML
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM  # GitHub Flavored Markdown
+
+# Sass Settings
+# These control how your SCSS files are processed
+sass:
+  style: compressed  # Minifies the CSS output
+  
+# Exclude Files
+# These files/folders will not be processed or copied to the site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md

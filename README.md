@@ -1,1 +1,0 @@
-# maximusmendoza.github.io
