@@ -5,7 +5,7 @@ title: Blog
 permalink: /blog/
 ---
 
-Welcome to my thoughts and musings! Here you'll find my perspectives on machine learning, AI safety, and whatever else catches my interest in the vast world of artificial intelligence.
+Welcome to my thoughts and musings! Here you'll find my perspectives on machine learning, AI safety, and whatever else catches my interest.
 
 {% for post in site.posts %}
   <article class="post-preview">
