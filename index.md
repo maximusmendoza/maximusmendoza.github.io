@@ -9,7 +9,6 @@ Welcome to my personal website! I'm a student at UCLA concurrently working towar
     <img src="/assets/images/profile.jpg" alt="Max Mendoza" class="profile-photo">
 </div>
 
-
 ## What I Do
 
 My focus lies primarily in mechanistic interpretability, a fascinating area of research that aims to understand how neural networks actually work "under the hood." I'm currently not associated with any labs, but like to post my personal projects here. I also enjoy writing about various aspects of AI. You can get to know my thoughts better through my [blog](/blog).

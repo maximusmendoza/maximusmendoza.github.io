@@ -291,8 +291,18 @@ a {
         }
     }
     
-    .profile-section .profile-photo {
-        max-width: 250px;
+    .profile-section {
+        text-align: center;
+        margin: 2rem 0 4rem 0;  /* Increased bottom margin from 2rem to 4rem */
+        padding: 1rem;
+        
+        .profile-photo {
+            max-width: 300px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 1rem auto 3rem auto;  /* Increased bottom margin from 1rem to 3rem */
+            display: block;
+        }
     }
     
     h1 {
