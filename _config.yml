@@ -1,53 +1,43 @@
 # Site Settings
-# These fundamental settings control how your site appears and functions
 title: Max Mendoza
 author:
   name: Max Mendoza
   email: your.email@example.com
 
-# Site Description
-# This appears in search engines and social media previews
 description: >
   Personal website and blog of Max Mendoza, featuring projects,
   blog posts, and professional experience in mechanistic interpretability
   and AI safety research.
 
 # URL Settings
-# These tell Jekyll how to construct URLs for your site
-baseurl: ""  # Leave empty unless your site is in a subdirectory
+baseurl: ""
 url: "https://maximusmendoza.github.io"
 
 # Build Settings
-# These control how Jekyll processes and generates your site
 theme: minima
 plugins:
-  - jekyll-feed  # Generates an RSS feed of your posts
-  - jekyll-seo-tag  # Adds metadata tags for search engines
+  - jekyll-seo-tag  # Removed jekyll-feed plugin
 
 # Navigation
-# These pages will appear in the top navigation bar
 header_pages:
   - blog.md
   - projects.md
   - resume.md
 
 # Social Media Links
-# Jekyll will automatically create properly formatted links from these usernames
 minima:
   social_links:
-    github: error517  # Replace with your GitHub username
-    linkedin: max-mendoza  # Replace with your LinkedIn username
-    kaggle: error517  # Replace with your Kaggle username
+    github: maximusmendoza
+    linkedin: your-linkedin-username
+    kaggle: your-kaggle-username
 
 # Collections
-# These organize your site's content types (like projects)
 collections:
   projects:
     output: true
     permalink: /projects/:path/
 
 # Default Settings
-# These set default front matter for different types of content
 defaults:
   - scope:
       path: ""
@@ -66,19 +56,16 @@ defaults:
       layout: "default"
 
 # Markdown Processing
-# Controls how Markdown is converted to HTML
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
-  input: GFM  # GitHub Flavored Markdown
+  input: GFM
 
 # Sass Settings
-# Controls how your SCSS files are processed
 sass:
-  style: compressed  # Minifies the CSS output
+  style: compressed
 
 # Exclude Files
-# These files/folders will not be processed or copied to the site
 exclude:
   - Gemfile
   - Gemfile.lock
