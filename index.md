@@ -1,8 +1,7 @@
 ---
 layout: home
+Title:  Hey! I'm Max Mendoza
 ---
-
-# Hey! I'm Max Mendoza
 
 Welcome to my personal website! I'm a student at UCLA concurrently working towards a bachelor's in math and computer science and a master's in applied math. I'm passionate about all things machine learning, especially AI safety. I think artificial intelligence has the capacity for immense good, and want to work to make sure we get it right.
 
