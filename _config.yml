@@ -3,8 +3,7 @@
 title: Max Mendoza
 author:
   name: Max Mendoza
-  email: your.email@example.com
-
+  email: max.k.mendoza17@gmail.com
 # Site Description
 # This appears in search engines and social media previews
 description: >
@@ -35,9 +34,9 @@ header_pages:
 # Jekyll will automatically create properly formatted links from these usernames
 minima:
   social_links:
-    github: maximusmendoza  # Replace with your GitHub username
-    linkedin: your-linkedin-username  # Replace with your LinkedIn username
-    kaggle: your-kaggle-username  # Replace with your Kaggle username
+    github: error517  # Replace with your GitHub username
+    linkedin: max-mendoza  # Replace with your LinkedIn username
+    kaggle: error517  # Replace with your Kaggle username
 
 # Collections
 # These organize your site's content types (like projects)
