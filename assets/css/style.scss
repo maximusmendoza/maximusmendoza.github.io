@@ -1,7 +1,7 @@
 @import "minima";
 
 /* Base Styles
-   These styles establish the fundamental look and feel of your website.
+   These fundamental styles set the visual foundation for your entire website.
    We use system fonts for optimal performance and readability across devices. */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -34,8 +34,8 @@ p {
 }
 
 /* Links
-   These styles ensure links are easily identifiable and provide clear feedback
-   when users interact with them. The subtle transitions create a polished feel. */
+   Interactive elements use subtle transitions and clear hover states
+   to provide visual feedback to users. */
 a {
     color: #0366d6;
     text-decoration: none;
@@ -48,8 +48,7 @@ a {
 }
 
 /* Navigation and Header Styles
-   The header provides consistent navigation while remaining visually distinct.
-   The styling ensures good contrast and clear hierarchy. */
+   The header provides consistent navigation while remaining visually distinct. */
 .site-header {
     border-top: 5px solid #424242;
     border-bottom: 1px solid #e1e4e8;
@@ -87,17 +86,17 @@ a {
 
 /* Homepage Specific Styles
    The profile section creates a strong visual focus for your personal brand.
-   The circular image and subtle shadow add visual interest. */
+   Extra margin after the profile photo creates clear separation from content. */
 .profile-section {
     text-align: center;
-    margin: 2rem 0;
+    margin: 2rem 0 4rem 0;
     padding: 1rem;
     
     .profile-photo {
         max-width: 300px;
         border-radius: 50%;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        margin: 1rem auto;
+        margin: 1rem auto 3rem auto;  /* Increased bottom margin for more space */
         display: block;
     }
 }
@@ -177,8 +176,7 @@ a {
 
 /* Resume Page Styles
    These styles ensure your PDF resume displays properly and maintains
-   consistency with the rest of your site's design. The container provides
-   a clean, professional presentation. */
+   consistency with the rest of your site's design. */
 .resume-container {
     width: 100%;
     max-width: 1000px;
@@ -219,14 +217,23 @@ a {
     margin-top: 4rem;
     background-color: #f6f8fa;
     
-    .footer-col {
-        margin-bottom: 1rem;
+    .footer-col-wrapper {
+        display: flex;
+        justify-content: center;
+        margin: 0 -15px;
     }
     
-    .social-links {
+    .footer-col {
+        margin-bottom: 1rem;
+        padding: 0 15px;
         text-align: center;
-        padding: 0;
+    }
+    
+    .social-media-list {
+        list-style: none;
         margin: 1rem 0;
+        padding: 0;
+        text-align: center;
         
         li {
             display: inline-block;
@@ -237,33 +244,26 @@ a {
                 align-items: center;
                 color: #2c3e50;
                 text-decoration: none;
-                transition: color 0.2s ease;
-                
-                svg {
-                    width: 24px;
-                    height: 24px;
-                    margin-right: 0.5rem;
-                    fill: currentColor;
-                }
+                transition: all 0.2s ease;
                 
                 &:hover {
                     color: #0366d6;
-                    text-decoration: none;
+                    transform: translateY(-2px);
                     
-                    svg {
-                        transform: scale(1.1);
-                        transition: transform 0.2s ease;
+                    .svg-icon {
+                        fill: #0366d6;
                     }
                 }
             }
         }
-    }
-    
-    .footer-text {
-        text-align: center;
-        color: #6a737d;
-        font-size: 0.9rem;
-        margin-top: 1rem;
+        
+        .svg-icon {
+            width: 24px;
+            height: 24px;
+            fill: #2c3e50;
+            transition: fill 0.2s ease;
+            margin-right: 0.5rem;
+        }
     }
 }
 
@@ -291,18 +291,8 @@ a {
         }
     }
     
-    .profile-section {
-        text-align: center;
-        margin: 2rem 0 4rem 0;  /* Increased bottom margin from 2rem to 4rem */
-        padding: 1rem;
-        
-        .profile-photo {
-            max-width: 300px;
-            border-radius: 50%;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            margin: 1rem auto 3rem auto;  /* Increased bottom margin from 1rem to 3rem */
-            display: block;
-        }
+    .profile-section .profile-photo {
+        max-width: 250px;
     }
     
     h1 {
@@ -319,7 +309,14 @@ a {
         text-align: center;
     }
     
-    .site-footer .social-links li {
-        margin: 0 0.5rem;
+    .site-footer {
+        .footer-col-wrapper {
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        .social-media-list li {
+            margin: 0 0.5rem;
+        }
     }
 }
