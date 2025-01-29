@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-I'm a busy college student, I promise to get to putting my projects up eventually:
+I'm a busy college student, I promise to get to putting my projects up eventually 
 
 {% for project in site.projects %}
   <div class="project-card">
