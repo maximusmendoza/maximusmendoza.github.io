@@ -17,7 +17,7 @@ My focus lies primarily in mechanistic interpretability, a fascinating area of r
 
 At any given time, I try to work on a couple projects. Right now, that's:
 
-1. Developing a virtual assistant that makes sure I'm staying productive
-2. Implementing Anthropic's "Toy Models of Superposition" from scratch
+1. Working on a novel ML arcitecture that prioritizes generality 
+2. Interpretability methods for continous chain-of-thought
 
 Hopefully you'll get to see them on my [projects page](/projects) soon.
