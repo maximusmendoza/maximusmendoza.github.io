@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "On the Progress of Artificial Intelligence"
-date: 2024-02-03
+date: 2025-02-03
 categories: ai-safety
 ---
 To me, it feels as though one of the fundamental things that those outside the AI research community seem to not quite understand is the rate at which artificial intelligence is improving. Yes, people at a high level get that AI progress is rapidly accelerating, but they lack a visceral intuition as to why this is the case, and subsequently how quick that progress just is. My goal with this article is to try to convey this pace of acceleration to non-technical individuals. Hopefully, armed with this knowledge, the reader can better understand why organizations of all sizes, from companies to governments, are taking the actions that they are, as well as better grasp the implications of these actions. Bear with me, this one might still feel a bit technical; I tried my best to simplify things.

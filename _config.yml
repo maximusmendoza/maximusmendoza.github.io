@@ -21,7 +21,6 @@ plugins:
 # Navigation
 header_pages:
   - blog.md
-  - projects.md
   - resume.md
 
 # Social Media Links
@@ -31,12 +30,6 @@ minima:
     linkedin: your-linkedin-username
     kaggle: your-kaggle-username
 
-# Collections
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
-
 # Default Settings
 defaults:
   - scope:
@@ -45,11 +38,6 @@ defaults:
     values:
       layout: "post"
       author: Max Mendoza
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "project"
   - scope:
       path: ""
     values:

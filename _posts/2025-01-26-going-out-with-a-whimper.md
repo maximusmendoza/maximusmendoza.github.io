@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Going Out With a Whimper: Reflections on AI Safety and Christiano's Work"
-date: 2024-01-26
+date: 2025-01-26
 categories: ai-safety
 ---
 

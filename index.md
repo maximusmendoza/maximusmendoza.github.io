@@ -11,13 +11,5 @@ Welcome to my personal website! I'm a student at UCLA concurrently working towar
 
 ## What I Do
 
-My focus lies primarily in mechanistic interpretability, a fascinating area of research that aims to understand how neural networks actually work "under the hood." I'm currently not associated with any labs, but like to post my personal projects here. I also enjoy writing about various aspects of AI. You can get to know my thoughts better through my [blog](/blog).
+For the past year or so, I've been extremely interested in understanding collective intelligence (CI) and how agents coordinate with one another to form "super organisms" that can achieve goals more complex than any of its constituents could on their own. My hope is that developing the mathematical foundations of CI will provide a more principled way to discuss alignment across large networks of interacting agents and perhaps lead to new insights for controlling complex systems. Outside of AI safety, I'm a big foodie and love running, hiking, and any sort of outdoor activity where I'll break a sweat. 
 
-## Current Project(s)
-
-At any given time, I try to work on a couple projects. Right now, that's:
-
-1. Working on a novel ML arcitecture that prioritizes generality 
-2. Interpretability methods for continous chain-of-thought
-
-Hopefully you'll get to see them on my [projects page](/projects) soon.

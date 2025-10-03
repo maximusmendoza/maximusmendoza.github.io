@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ChatGPT can order me groceries now. Who really cares?"
-date: 2024-01-29
+date: 2025-01-29
 categories: ai-safety
 ---
 
