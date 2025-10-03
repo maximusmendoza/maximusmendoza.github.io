@@ -24,7 +24,7 @@ Interestingly, in the near term future, it seems blue-collar jobs are the ones t
 
 But when physical AI systems become so prevalent, what happens to labor with any sort of physical component? And this goes for nearly all physical labor. Everything from truck drivers to surgeons. What then? 
 
-Your job is not safe. Let me repeat, with the exception of an exceedingly small number of individuals, your job is not safe (me included). Right now, the things these systems can do in the real world are relatively limited. But soon, the secretaries that lost their jobs will be software engineers. And then consultants, and then investment bankers, and then production managers, and then lawyers, and then doctors, and so and so on. 
+With the exception of an exceedingly small number of individuals, your job is not safe (me included). Right now, the things these systems can do in the real world are relatively limited. But soon, the secretaries that lost their jobs will be software engineers. And then consultants, and then investment bankers, and then production managers, and then lawyers, and then doctors, and so and so on. 
 
 This isn’t some distant future, this is happening today.
 
