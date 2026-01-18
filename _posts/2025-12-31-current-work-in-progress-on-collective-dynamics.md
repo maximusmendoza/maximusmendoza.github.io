@@ -5,6 +5,17 @@ date: 2025-12-31
 categories: ai-safety
 ---
 
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
 Truthfully, I'm only putting this out there for my PIBBSS application. What follows is an incomplete blog post that scratches the surface on an even more incomplete framework aimed at making sense of multi-agent dynamics. I believe further mathematical generalization is necessary to adequately describe real-world forms of collective intelligence. For the mathematically inclined reader, one might mentally replace "graph Laplacian" with its more powerful brother, the sheaf laplacian. 
 
 ## The unreasonable robustness of life 
@@ -98,4 +109,3 @@ This is of course, not to undersell the power of GSP and spectral graph theory. 
 We would argue that this principle of relationships governing dynamics applies to many real world systems. All forms of intelligence are collective intelligence, whether that be neurons in the brain, people in a company, or layers in a neural network. Further, the set of systems that are conventionally considered to be intelligent is much too narrow. Humans and their specific cognitive abilities are but a small sliver of the space of intelligent systems. It is only when relaxing our assumptions, focusing less on the specific capabilities a system has and more on the way in which information flows throughout the system do we start to properly frame the notions of intelligence and agency. 
 
 Given a common language to discuss collective intelligence, does this suggest that we may be able to "grow" our own organizations, the way organisms grow? Just as in embryogenesis where a single cell can develop into a fully functional complex organism, is it possible to “organically” (whatever that means) steer the development of multi-agent systems to create more desirable forms of collective intelligence? Instead of taking a reductionist approach and trying to control the actions of each individual agent, perhaps we can instead outline the high level characteristics we want our collective system to have. From there, we can observe how agents naturally interact, where they form distinct boundaries, or when emergent phenomena appear, and by solely acting on the relationships between agents rather than the internals of the agents themselves, guide the collective toward desirable attractors and away from undesirable ones.
-
