@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Current Work in Progress on Collective Dynamics"
-date: 2026-01-28
+date: 2025-12-31
 categories: ai-safety
 ---
 
