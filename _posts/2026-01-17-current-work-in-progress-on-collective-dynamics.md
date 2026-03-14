@@ -100,7 +100,7 @@ $$\mathrm{Var}(X(t))=\frac{1}{n}\sum_{k=2}^n e^{-2\lambda_k t}|\alpha_k(0)|^2$$
 The total amount of disagreement in the collective at any time $t$ is a weighted sum of the initial disagreements projected onto the graph's eigenmodes. The eigenvalues $\lambda_k$ act as the "cost" of maintaining those disagreements. Patterns that run against the grain of the graph's connectivity (large $\lambda$) are "expensive" and burn out quickly. Patterns that align with the graph's natural geometry (small $\lambda$) are "cheap" and persist for a long time. Thus, the ​​Laplacian spectrum effectively dictates which disagreements are transient noise and which are durable features of the collective state.
 
 
-## Generalisation in science: Future Research 
+## Generalization in science: Future Research 
 
 Our core premise is that the dynamics of a collective intelligence—how individual actions combine to form the collective and how the collective constrains individual actions—is governed by the relationships between agents. Graphs offer an easy way to model these relationships while also lending itself to the computational tractability of linear algebra, but it's far from the only viable mathematical structure. In particular, we believe applied category theory (which is all about objects and their relationships) offers the most natural setting to study collective intelligence. Perhaps future work involves translating this framework based on spectral graph theory into a categorical lens (pun intended for the category theorists). 
 
