@@ -16,7 +16,7 @@ categories: ai-safety
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 </script>
 
-Truthfully, I'm only putting this out there for my PIBBSS application. What follows is an incomplete blog post that scratches the surface on an even more incomplete framework aimed at making sense of multi-agent dynamics. I believe further mathematical generalization is necessary to adequately describe real-world forms of collective intelligence. For the mathematically inclined reader, one might mentally replace "graph Laplacian" with its more powerful brother, the sheaf laplacian. 
+Last fall I was a SPAR mentee for this startup in Sweden called Equilibria Networks. The guys over there are really interested in collective intelligence and what a world with millions of AIs running around actually looks like. Truthfully, the research I did was very open-ended and is still going on. So much so that I didn't finish the SPAR program with a concrete output. Nonetheless, here are some ideas we've been thinking about. Hope you enjoy : ) 
 
 ## The unreasonable robustness of life 
 
